@@ -1,5 +1,5 @@
 <?php
-// home.php — Single Page SEO + Google Ads Safe Structure
+
 ?>
 
 <!DOCTYPE html>
@@ -1442,7 +1442,7 @@ body{
 
         <!-- Right Illustration / Banner Image -->
         <div class="hero-image">
-            <img src="images/d3.webp"
+            <img src="d3.webp"
                  alt="Premium Catering Service USA">
         </div>
 
@@ -1471,7 +1471,7 @@ body{
             <!-- Corporate Catering -->
             <div class="service-card">
                 <div class="service-image">
-                    <img src="images/c1.webp"
+                    <img src="c1.webp"
                          alt="Corporate Catering USA">
                 </div>
 
@@ -1497,7 +1497,7 @@ body{
             <!-- Wedding Catering -->
             <div class="service-card">
                 <div class="service-image">
-                    <img src="images/c2.webp"
+                    <img src="c2.webp"
                          alt="Wedding Catering Services">
                 </div>
 
@@ -1523,7 +1523,7 @@ body{
             <!-- Private / Social Events -->
             <div class="service-card">
                 <div class="service-image">
-                    <img src="images/c3.webp"
+                    <img src="c3.webp"
                          alt="Private Event Catering USA">
                 </div>
 
@@ -1608,7 +1608,7 @@ body{
 
         <!-- Right Image -->
         <div class="about-image">
-            <img src="images/about.webp"
+            <img src="about.webp"
                  alt="Professional Catering Team USA">
         </div>
 
@@ -1661,7 +1661,7 @@ body{
             <!-- Main Course -->
             <div class="menu-card">
                 <div class="menu-image">
-                    <img src="images/d2.webp"
+                    <img src="d2.webp"
                          alt="Premium Catering Main Course USA">
                 </div>
 
@@ -1685,7 +1685,7 @@ body{
             <!-- Desserts -->
             <div class="menu-card">
                 <div class="menu-image">
-                    <img src="images/banner.webp"
+                    <img src="banner.webp"
                          alt="Dessert Catering Service USA">
                 </div>
 
@@ -2132,3 +2132,4 @@ function toggleMenu(){
 
 </body>
 </html>
+
