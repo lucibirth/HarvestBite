@@ -13,7 +13,7 @@
 <link rel="icon" type="image/webp" sizes="16x16" href="c3.webp">
 <link rel="preload" href="style.css" as="style">
 <link rel="stylesheet" href="style.css">
-
+ <link rel="preload" as="image" href="d3.webp">
 </head>
 <body>
 
@@ -60,9 +60,6 @@
     </div>
 
 </header>
-
-   <link rel="preload" as="image" href="d3.webp">
-
   <section class="hero-section" id="home">
 
     <div class="hero-wrapper">
@@ -94,23 +91,19 @@
         </div>
 
         <!-- Right Illustration / Banner Image -->
-        <div class="hero-image">
-            <img
-                src="d3.webp"
-                srcset="
-                    d3.webp 400w,
-                    d3.webp 800w,
-                    d3.webp 1200w
-                "
-                sizes="(max-width: 768px) 90vw,
-                       (max-width: 1200px) 50vw,
-                       600px"
-                width="1200"
-                height="900"
-                decoding="async"
-                alt="Premium Catering Service USA"
-            >
-        </div>
+       <div class="hero-image">
+  <img
+    src="d3.webp"
+    width="1200"
+    height="900"
+    alt="Premium Catering Service USA"
+    decoding="async"
+    fetchpriority="high"
+    loading="eager"
+    style="max-width:100%;height:auto"
+  >
+</div>
+
 
     </div>
 
@@ -890,6 +883,7 @@ function toggleMenu(){
 
 </body>
 </html>
+
 
 
 
