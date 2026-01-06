@@ -16,12 +16,12 @@
 <link
   rel="preload"
   as="image"
-  href="d3.webp"
+  href="aaa.jpg"
   fetchpriority="high"
   imagesrcset="
-    d3-600.webp 600w,
-    d3-900.webp 900w,
-    d3-1200.webp 1200w
+    aaa-600.webp 600w,
+    aaa-900.webp 900w,
+    aaa-1200.webp 1200w
   "
   imagesizes="100vw"
 >
@@ -105,24 +105,18 @@
         <!-- Right Illustration / Banner Image -->
 <div class="hero-image">
   <img
-    src="d3.webp"
-    srcset="
-      d3-600.webp 600w,
-      d3-900.webp 900w,
-      d3-1200.webp 1200w
-    "
-    sizes="(max-width: 768px) 100vw,
-           (max-width: 1200px) 60vw,
-           900px"
+    src="aaa.jpg"
     width="1200"
     height="900"
-    loading="eager"
+    alt="Premium Catering Service USA"
     decoding="async"
     fetchpriority="high"
-    alt="Premium Catering Service USA"
+    loading="eager"
     style="max-width:100%;height:auto"
   >
 </div>
+
+
 
 
 
@@ -882,6 +876,7 @@ function toggleMenu(){
 
 </body>
 </html>
+
 
 
 
