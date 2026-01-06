@@ -1,10 +1,8 @@
 <?php
-
 ?>
 
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -14,17 +12,7 @@
 <meta name="description" content="HarvestBite Catering offers premium USA-based wedding catering, corporate event catering, and private party catering with custom menus and professional chefs.">
 <link rel="icon" type="image/webp" sizes="16x16" href="c3.webp">
     <link rel="stylesheet" href="style.css">
-
-
-
-
-
-
-
-
 </head>
-
-
 <body>
 
 <header class="site-header">
@@ -70,8 +58,6 @@
     </div>
 
 </header>
-
-<main>
 
 <!-- ===== HERO / BANNER SECTION ===== -->
 <section class="hero-section" id="home">
@@ -697,8 +683,6 @@
   </div>
 </section>
 
-</main>
-
 <!-- ===== SITE FOOTER ===== -->
 <footer class="site-footer">
   <div class="footer-container">
@@ -796,6 +780,7 @@ function toggleMenu(){
 
 </body>
 </html>
+
 
 
 
