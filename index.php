@@ -61,8 +61,9 @@
 
 </header>
 
-<!-- ===== HERO / BANNER SECTION ===== -->
-<section class="hero-section" id="home">
+   <link rel="preload" as="image" href="d3.webp">
+
+  <section class="hero-section" id="home">
 
     <div class="hero-wrapper">
 
@@ -94,15 +95,28 @@
 
         <!-- Right Illustration / Banner Image -->
         <div class="hero-image">
-            <img src="d3.webp"
-                 alt="Premium Catering Service USA"loading="lazy">
+            <img
+                src="d3-800.webp"
+                srcset="
+                    d3-400.webp 400w,
+                    d3-800.webp 800w,
+                    d3-1200.webp 1200w
+                "
+                sizes="(max-width: 768px) 90vw,
+                       (max-width: 1200px) 50vw,
+                       600px"
+                width="1200"
+                height="900"
+                decoding="async"
+                alt="Premium Catering Service USA"
+            >
         </div>
 
     </div>
 
 </section>
 
-<!-- ===== CATERING SERVICES SECTION ===== -->
+
 <section class="services-section" id="services">
 
     <div class="services-container">
@@ -123,8 +137,21 @@
             <!-- Corporate Catering -->
             <div class="service-card">
                 <div class="service-image">
-                    <img src="c1.webp"
-                         alt="Corporate Catering USA"loading="lazy">
+                    <img
+                        src="c1-600.webp"
+                        srcset="
+                            c1-400.webp 400w,
+                            c1-600.webp 600w,
+                            c1-900.webp 900w
+                        "
+                        sizes="(max-width: 768px) 90vw,
+                               (max-width: 1200px) 45vw,
+                               360px"
+                        width="900"
+                        height="600"
+                        loading="lazy"
+                        decoding="async"
+                        alt="Corporate Catering USA">
                 </div>
 
                 <h3>Corporate & Business Catering</h3>
@@ -149,8 +176,21 @@
             <!-- Wedding Catering -->
             <div class="service-card">
                 <div class="service-image">
-                    <img src="c2.webp"
-                         alt="Wedding Catering Services"loading="lazy">
+                    <img
+                        src="c2-600.webp"
+                        srcset="
+                            c2-400.webp 400w,
+                            c2-600.webp 600w,
+                            c2-900.webp 900w
+                        "
+                        sizes="(max-width: 768px) 90vw,
+                               (max-width: 1200px) 45vw,
+                               360px"
+                        width="900"
+                        height="600"
+                        loading="lazy"
+                        decoding="async"
+                        alt="Wedding Catering Services">
                 </div>
 
                 <h3>Wedding & Reception Catering</h3>
@@ -175,8 +215,21 @@
             <!-- Private / Social Events -->
             <div class="service-card">
                 <div class="service-image">
-                    <img src="c3.webp"
-                         alt="Private Event Catering USA"loading="lazy">
+                    <img
+                        src="c3-600.webp"
+                        srcset="
+                            c3-400.webp 400w,
+                            c3-600.webp 600w,
+                            c3-900.webp 900w
+                        "
+                        sizes="(max-width: 768px) 90vw,
+                               (max-width: 1200px) 45vw,
+                               360px"
+                        width="900"
+                        height="600"
+                        loading="lazy"
+                        decoding="async"
+                        alt="Private Event Catering USA">
                 </div>
 
                 <h3>Private & Social Event Catering</h3>
@@ -203,6 +256,7 @@
     </div>
 
 </section>
+
 
 <!-- ===== ABOUT CATERING COMPANY ===== -->
 <section class="about-section" id="about">
@@ -260,13 +314,31 @@
 
         <!-- Right Image -->
         <div class="about-image">
-            <img src="about.webp"
-                 alt="Professional Catering Team USA"loading="lazy">
+
+            <img
+                src="about.webp"
+                alt="Professional Catering Team USA"
+                
+                <!-- prevent layout shift -->
+                width="720"
+                height="820"
+
+                <!-- better decode -->
+                decoding="async"
+
+                <!-- below the fold image -->
+                loading="lazy"
+                fetchpriority="low"
+
+                <!-- responsive hint -->
+                sizes="(max-width: 768px) 100vw, 45vw"
+            >
         </div>
 
     </div>
 
 </section>
+
 
 <!-- ===== FOOD MENU SHOWCASE ===== -->
 <section class="menu-section" id="menus">
@@ -289,8 +361,20 @@
             <!-- Appetizers -->
             <div class="menu-card">
                 <div class="menu-image">
-                    <img src="d1.webp"
-                         alt="Event Appetizers Catering"loading="lazy">
+
+                    <img
+                        src="d1.webp"
+                        alt="Event Appetizers Catering"
+
+                        width="720"
+                        height="640"
+
+                        loading="lazy"
+                        decoding="async"
+                        fetchpriority="low"
+
+                        sizes="(max-width: 768px) 100vw, 32vw"
+                    >
                 </div>
 
                 <h3>Gourmet Appetizers & Starters</h3>
@@ -313,8 +397,20 @@
             <!-- Main Course -->
             <div class="menu-card">
                 <div class="menu-image">
-                    <img src="d2.webp"
-                         alt="Premium Catering Main Course USA"loading="lazy">
+
+                    <img
+                        src="d2.webp"
+                        alt="Premium Catering Main Course USA"
+
+                        width="720"
+                        height="640"
+
+                        loading="lazy"
+                        decoding="async"
+                        fetchpriority="low"
+
+                        sizes="(max-width: 768px) 100vw, 32vw"
+                    >
                 </div>
 
                 <h3>Premium Entrées & Main Course</h3>
@@ -337,8 +433,20 @@
             <!-- Desserts -->
             <div class="menu-card">
                 <div class="menu-image">
-                    <img src="banner.webp"
-                         alt="Dessert Catering Service USA"loading="lazy">
+
+                    <img
+                        src="banner.webp"
+                        alt="Dessert Catering Service USA"
+
+                        width="720"
+                        height="640"
+
+                        loading="lazy"
+                        decoding="async"
+                        fetchpriority="low"
+
+                        sizes="(max-width: 768px) 100vw, 32vw"
+                    >
                 </div>
 
                 <h3>Signature Desserts & Sweet Table</h3>
@@ -782,6 +890,7 @@ function toggleMenu(){
 
 </body>
 </html>
+
 
 
 
