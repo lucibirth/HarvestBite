@@ -1,6 +1,10 @@
-
-
 /* ---------- Global Reset ---------- */
+.hero-image img{
+  display:block;
+  aspect-ratio: 4/3;
+}
+
+
 *{
     margin:0;
     padding:0;
