@@ -11,7 +11,9 @@
 
 <meta name="description" content="HarvestBite Catering offers premium USA-based wedding catering, corporate event catering, and private party catering with custom menus and professional chefs.">
 <link rel="icon" type="image/webp" sizes="16x16" href="c3.webp">
-    <link rel="stylesheet" href="style.css">
+<link rel="preload" href="style.css" as="style">
+<link rel="stylesheet" href="style.css">
+
 </head>
 <body>
 
@@ -780,6 +782,7 @@ function toggleMenu(){
 
 </body>
 </html>
+
 
 
 
